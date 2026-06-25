@@ -23,18 +23,9 @@ This repository contains a reproducible pipeline for generating and analyzing LL
 | MAX_NEW_TOKENS | 140 |
 | Output format | `.jsonl.gz` |
 
-Important: the script has internal fallback defaults, but the experiment should be run with the explicit command below for consistency.
 
-## Current Clean Check
 
-For chunks `000-009`:
 
-| Metric | Value |
-|---|---:|
-| Usable rows | 382,287 |
-| Global unique passphrases | 360,742 |
-| Duplicate records | 21,545 |
-| Duplicate rate | 5.64% |
 
 ## Repository Contents
 
