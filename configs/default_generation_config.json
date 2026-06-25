@@ -1,0 +1,30 @@
+{
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "hardware_used": "Google Colab Tesla T4 GPU",
+  "output_format": "jsonl.gz",
+  "important_note": "The script has internal defaults, but the experiment should be run with the explicit environment variables below for consistency.",
+  "experiment_parameters": {
+    "target_per_family": 1250,
+    "n_prompt_families": 40,
+    "n_per_prompt": 8,
+    "batch_size": 8,
+    "max_new_tokens": 140,
+    "global_seed_used_in_script": 20260622
+  },
+  "chunking": {
+    "raw_attempts_per_chunk": 50000,
+    "formula": "40 prompt families x 1250 target per family"
+  },
+  "current_author_run": {
+    "completed_clean_check": "chunks_000_to_009",
+    "usable_rows": 382287,
+    "global_unique_passphrases": 360742,
+    "duplicate_rate_percent": 5.64
+  },
+  "collaborator_recommendation": {
+    "start_chunk": 100,
+    "end_chunk": 105,
+    "output_dir": "/content/drive/MyDrive/LLM_Passphrase_Collab_Run/t4_llm_chunks_50k_v4",
+    "reason": "Use the same framework and parameters, but a different chunk range/output folder to avoid direct overlap with the author's generated chunks."
+  }
+}
