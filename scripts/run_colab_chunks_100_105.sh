@@ -1,0 +1,9 @@
+OUTPUT_DIR="/content/drive/MyDrive/LLM_Passphrase_Collab_Run/t4_llm_chunks_50k_v4" \
+MODEL_ID="Qwen/Qwen2.5-1.5B-Instruct" \
+START_CHUNK=100 \
+END_CHUNK=105 \
+TARGET_PER_FAMILY=1250 \
+N_PER_PROMPT=8 \
+BATCH_SIZE=8 \
+MAX_NEW_TOKENS=140 \
+python src/run_t4_llm_passphrase_v4.py
